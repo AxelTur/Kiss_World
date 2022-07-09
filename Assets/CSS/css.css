@@ -61,40 +61,6 @@
   color: black;
 }
 
-@media(max-width: 768px){
-  .Margen li {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    margin: 0rem;
-    padding: 0rem;
-    text-align: center;
-    list-style-type: none;
-    box-sizing: border-box;
-  }
-}
-
-@media(max-width: 768px) {
-  .Margen li a {
-    border: solid;
-    font-size: 1rem;
-    font-weight: 200;
-    text-decoration: none;
-    letter-spacing: 0.1rem;
-    font-variant: small-caps;
-    font-style: normal;
-    font-family: "Arial";
-    background-color: rgba(231, 9, 28, 0.822);
-    border-color: yellow;
-    border-width: 0.1rem;
-    color: black;
-    width: 30%;
-    align-self: center;
-  }
-}
-
 
 
 /* ----------- INDEX MAIN ------------- */
