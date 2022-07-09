@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Assets/CSS/css.css">
+</head>
+
+<body class="responsive body">
+  <header class="body__header">
+    <h1 class="title">KISS WORLD TOUR</h1>
+    <div class="logotipo">
+      <!--     <img src="./Assets/Images/Kisslogo2.jpg" alt="Logo Kiss" class="banner" /> -->
+    </div>
+    <nav>
+      <!--       <ul class="banner">
+        <li class="banner">
+          <img src="./Assets/Images/Kisslogo2.jpg" alt="Logo Kiss" class="banner" />
+        </li>
+      </ul> -->
+      <ul class="Margen">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./Integrantes.html">Integrantes</a></li>
+        <li><a href="./Historia.html">Historia</a></li>
+        <li><a href="./Media.html">Media</a></li>
+        <li><a href="./Contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="body__main body__contacto">
+    <h2>Formulario</h2>
+    <form>
+      <fieldset>
+        <legend>Formulario de ayuda</legend>
+        <div class="test">
+          <label for="Nombre">Nombre</label>
+          <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre" required>
+        </div>
+        <div class="test">
+          <label for="Apellido">Apellido</label>
+          <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido" required>
+        </div>
+        <div class="test">
+          <label for="Correo">Correo Electronico</label>
+          <input type="Email" name="Correo" id="Correo" placeholder="Ingrese su E-mail" required>
+        </div>
+        <div class="test">
+          <label for="Celular">Telefono</label>
+          <input type="tel" name="Celular" id="Celular" placeholder="Ingrese su Número" required>
+        </div>
+
+        <!-- Menu desplegable-->
+
+        <div class="test">
+          <label for="Consulta">Tipo de consulta</label>
+          <select name="Consulta" id="Consulta">
+            <option value=""></option>
+            <option value="Consulta">Consulta</option>
+            <option value="entradas">Entradas</option>
+            <option value="">Medios de Pago</option>
+            <option value="">Otros</option>
+          </select>
+        </div>
+
+        <div class="test">
+          <label for="consulta">Consulta</label> <br>
+          <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Ingrese su consulta"
+            maxlength=""></textarea>
+        </div>
+        <div class="test">
+          <label for="Preferencia">Elija la opcion de contacto principal:</label>
+
+          <input type="radio" name="Preferencia">Telefono
+          <input type="radio" name="Preferencia">E-mail
+        </div>
+
+        <div class="test">
+          <input type="Submit">
+          <input type="reset" value="Restablecer">
+        </div>
+  </main>
+
+
+  <footer class="body__footer">
+    <div>
+      <img class="imgsize2" src="./Assets/Images/Logo kiss.gif" alt="logo Kiss" />
+    </div>
+    <div class="f2">
+      <p>Kiss 2022 - Todos los derechos reservados</p>
+    </div>
+    <div class="f3">
+      <a href="">Condiciones de uso</a>
+      <a href="">Politica de privacidad</a>
+      <a href="">Politica de cookies</a>
+    </div>
+  </footer>
+</body>
+
+</html>

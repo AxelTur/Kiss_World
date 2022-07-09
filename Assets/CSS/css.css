@@ -1,0 +1,323 @@
+/* ----------- INDEX HEADER ------------- */
+
+.responsive {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  display: none;
+}
+
+.body {
+  background-color: black;
+}
+
+.logotipo {
+  background-image: url("../Images/Kisslogo2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 100%;
+  height: 30rem;
+}
+
+.Margen {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin: 0rem;
+  padding: 0rem;
+  text-align: center;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.Margen li {
+  width: auto;
+  justify-content: center;
+  margin: 0rem;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.Margen li a {
+  padding: 0.2rem;
+  border: solid;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  font-variant: small-caps;
+  font-style: normal;
+  font-family: "Arial";
+  text-transform: uppercase capitalize;
+  font-weight: 500;
+  background-color: rgba(231, 9, 28, 0.822);
+  border-color: yellow;
+  border-width: 0.1rem;
+  color: black;
+}
+
+/* ----------- INDEX MAIN ------------- */
+
+.body__main {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.artmain {
+  padding: 1vw;
+  margin: 1vw;
+  color: red;
+}
+
+.maingif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.maintext {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.mainh2 {
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* ----------- INDEX FOOTER ------------- */
+
+.body__footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imgsize2 {
+  width: 5rem;
+}
+
+.f2,
+.f3 {
+  margin-top: 1rem;
+}
+
+.f2 {
+  color: red;
+}
+
+.th {
+  text-align: left;
+}
+
+/* ----------- HISTORIA ------------- */
+
+.art {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  line-height: 1.4rem;
+  padding: 3rem 0rem 0rem 1rem;
+  margin: 2rem;
+  background-image: url("../Images/MetalFondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-sizing: border-box;
+}
+
+.art__title {
+  width: 100%;
+  font-family: "Arial";
+  font-size: auto;
+  color: red;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.art__text {
+  padding: auto;
+  font-family: "Arial";
+  font-weight: 600;
+  font-size: medium;
+  width: 100%;
+  text-align: justify;
+}
+
+/* ----------- MEDIA ------------- */
+
+.container__media {
+  display: grid;
+  width: 98.4vw;
+  height: 80vh;
+  grid-template-rows: [R1] 33.3% [R2] 33.3% [R3] 33.3% [R4];
+  grid-template-columns: [C1] 40% [C2] 60% [C3];
+  grid-template-areas:
+    ". vid1"
+    "spo vid2"
+    ". vid3";
+  margin: 3px 5px 3px 5px;
+}
+
+.spo {
+  grid-area: spo;
+  align-self: stretch;
+  justify-self: center;
+  width: 100%;
+}
+
+.spos {
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+
+.vids {
+  width: 50%;
+  align-self: center;
+  justify-self: center;
+}
+
+
+.vid1 {
+  grid-area: vid1;
+}
+
+.vid2 {
+  grid-area: vid2;
+}
+
+.vid3 {
+  grid-area: vid3;
+}
+
+
+/* ----------- CONTACTO ------------- */
+
+.body__contacto{
+  display: inline-block;
+  margin: 5px auto 5px auto;
+  color: red;
+}
+
+.test{
+  margin: 1vh auto 1vh auto;
+}
+
+
+
+/* ----------- INTEGRANTES ------------- */
+
+.body__integrantes {
+  color: red;
+}
+
+.container__integrantes {
+  display: grid;
+  height: 80vh;
+  grid-template-rows: [R1] 25% [R2] 25% [R3] 25% [R4] 25% [R5];
+  grid-template-columns: [C1] 50% [C2] 50% [C3];
+  grid-template-areas:
+    "int1 img1"
+    "int2 img2"
+    "int3 img3"
+    "int4 img4";
+  margin: 10vw 5vw 10vw 5vw;
+}
+
+@media (max-width: 600px) {
+  .container__integrantes {
+    display: grid;
+    height: 150vh;
+    grid-template-rows: [R1] 5% [R2] 20% [R3] 5% [R4] 20% [R5] 5% [R6] 20% [R7] 5% [R8] 20% [R9];
+    grid-template-columns: [C1] 100% [C2];
+    grid-template-areas:
+      "int1"
+      "img1"
+      "int2"
+      "img2"
+      "int3"
+      "img3"
+      "int4"
+      "img4";
+    margin: 10vw 5vw 10vw 5vw;
+  }
+}
+
+.ints {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+@media (max-width: 600px){
+  .ints{
+    font-size: 6vw;
+  }
+}
+  
+
+.int1 {
+  grid-area: int1;
+}
+
+.int2 {
+  grid-area: int2;
+}
+
+.int3 {
+  grid-area: int3;
+}
+
+.int4 {
+  grid-area: int4;
+}
+
+.imgs {
+  grid-area: im;
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  display: grid;
+  grid-template-rows: [R1] 5% [R2] 90% [R3] 5% [R4];
+  grid-template-columns: [C1] 20% [C2] 60% [C3] 20% [C4];
+  grid-template-areas:
+    ". . ."
+    ". im ."
+    ". . .";
+}
