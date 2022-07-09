@@ -1,3 +1,8 @@
+/* -------------------------------------------- INDEX MAIN ---------------------------------------------------- */
+
+
+
+
 @media (max-width: 768px) {
     .maingif {
         width: 100%;
@@ -36,5 +41,32 @@
     color: black;
     width: 30%;
     align-self: center;
+  }
+}
+
+
+
+
+/* -------------------------------------------- INTEGRANTES ---------------------------------------------------- */
+
+
+
+
+@media (max-width: 768px) {
+  .container__integrantes {
+    display: grid;
+    height: 150vh;
+    grid-template-rows: [R1] 5% [R2] 20% [R3] 5% [R4] 20% [R5] 5% [R6] 20% [R7] 5% [R8] 20% [R9];
+    grid-template-columns: [C1] 100% [C2];
+    grid-template-areas:
+      "int1"
+      "img1"
+      "int2"
+      "img2"
+      "int3"
+      "img3"
+      "int4"
+      "img4";
+    margin: 10vw 5vw 10vw 5vw;
   }
 }

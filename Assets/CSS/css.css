@@ -128,8 +128,7 @@
   justify-content: center;
   flex-wrap: wrap;
   line-height: 1.4rem;
-  padding: 3rem 0rem 0rem 1rem;
-  margin: 2rem;
+  margin: 2rem auto auto auto;
   background-image: url("../Images/MetalFondo.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -158,7 +157,7 @@
 
 .container__media {
   display: grid;
-  width: 98.4vw;
+  width: 100%;
   height: 80vh;
   grid-template-rows: [R1] 33.3% [R2] 33.3% [R3] 33.3% [R4];
   grid-template-columns: [C1] 40% [C2] 60% [C3];
@@ -166,7 +165,7 @@
     ". vid1"
     "spo vid2"
     ". vid3";
-  margin: 3px 5px 3px 5px;
+  margin: 3px auto 3px auto;
 }
 
 .spo {
@@ -237,36 +236,12 @@
   margin: 10vw 5vw 10vw 5vw;
 }
 
-@media (max-width: 600px) {
-  .container__integrantes {
-    display: grid;
-    height: 150vh;
-    grid-template-rows: [R1] 5% [R2] 20% [R3] 5% [R4] 20% [R5] 5% [R6] 20% [R7] 5% [R8] 20% [R9];
-    grid-template-columns: [C1] 100% [C2];
-    grid-template-areas:
-      "int1"
-      "img1"
-      "int2"
-      "img2"
-      "int3"
-      "img3"
-      "int4"
-      "img4";
-    margin: 10vw 5vw 10vw 5vw;
-  }
-}
 
 .ints {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2vw;
-}
-
-@media (max-width: 600px) {
-  .ints {
-    font-size: 6vw;
-  }
 }
 
 
@@ -285,6 +260,7 @@
 .int4 {
   grid-area: int4;
 }
+
 
 .imgs {
   grid-area: im;
