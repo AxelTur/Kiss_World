@@ -91,13 +91,12 @@
       "vid1"
       "vid2"
       'vid3';
-    margin: 10% 0 10% 0;
   }
 
   .vids {
     align-self: center;
     justify-self: center;
-    width: 100%;
+    width: 70%;
   }
 }
 
