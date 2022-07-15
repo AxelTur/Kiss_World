@@ -10,7 +10,7 @@
 }
 
 @media(max-width: 768px) {
-  .Margen li {
+  .body__nav li {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -26,7 +26,7 @@
 
 
 @media(max-width: 768px) {
-  .Margen li a {
+  .body__nav li a {
     border: solid;
     font-size: 1rem;
     font-weight: 200;

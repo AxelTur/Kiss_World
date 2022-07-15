@@ -247,8 +247,12 @@
   align-items: center;
   justify-content: center;
   font-size: 2vw;
+  transition: all 200ms;
 }
 
+.inthover{
+  visibility: hidder;
+}
 
 .int1 {
   grid-area: int1;
@@ -273,7 +277,8 @@
   align-self: center;
   width: 100%;
   height: 100%;
-  transition: all 300ms;
+  border-radius: 10%;
+  transition: all 200ms;
 }
 
 .img1 {
@@ -281,7 +286,8 @@
 }
 
 .imgs:hover{
-  transform: scale(1.15);
+  width: 80%;
+  transform: scale(1.30);
 }
 
 .img2 {
