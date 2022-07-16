@@ -9,7 +9,7 @@
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .body__nav li {
     display: flex;
     flex-direction: column;
@@ -25,25 +25,24 @@
 }
 
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .body__nav li a {
     border: solid;
     font-size: 1rem;
     font-weight: 200;
     text-decoration: none;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
     font-variant: small-caps;
     font-style: normal;
     font-family: "Arial";
-    background-color: rgba(231, 9, 28, 0.822);
-    border-color: yellow;
-    border-width: 0.1rem;
+    background-color: yellow;
+    border-color: red;
+    border-width: 0.2rem;
     color: black;
     width: 30%;
     align-self: center;
   }
 }
-
 
 
 
