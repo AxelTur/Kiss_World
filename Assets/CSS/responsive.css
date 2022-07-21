@@ -3,13 +3,13 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .maingif {
     width: 70%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .navbar-nav li {
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   
   .navbar-nav li a {
     border: solid;
@@ -102,7 +102,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .container__media {
     display: grid;
     width: 100%;
@@ -129,7 +129,7 @@
 /* -------------------------------------------- HISTORIA ---------------------------------------------------- */
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .art {
     display: flex;
     width: 100%;

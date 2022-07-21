@@ -411,5 +411,8 @@ nav {
  }
 
  .carousel-item img{
-  max-height: 40vh;
+  box-sizing: border-box;
+  height: 85vh;
+  object-fit: cover;
+  object-position: center center;
  }
