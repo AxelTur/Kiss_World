@@ -3,14 +3,14 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .maingif {
-    width: 100%;
+    width: 70%;
   }
 }
 
-@media (max-width: 768px) {
-  .body__nav li {
+@media (max-width: 900px) {
+  .navbar-nav li {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -25,10 +25,11 @@
 }
 
 
-@media (max-width: 768px) {
-  .body__nav li a {
+@media (max-width: 900px) {
+  
+  .navbar-nav li a {
     border: solid;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 200;
     text-decoration: none;
     letter-spacing: 0.05rem;
@@ -39,7 +40,7 @@
     border-color: red;
     border-width: 0.2rem;
     color: black;
-    width: 30%;
+    width: 50%;
     align-self: center;
   }
 }
@@ -51,7 +52,7 @@
 
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container__integrantes {
     display: grid;
     height: 150vh;
@@ -68,7 +69,30 @@
       "img4";
     margin: 10vw 5vw 10vw 5vw;
   }
+  .ints {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5vw;
+  }
+
+.imgs{
+  width: 100%;
+  height: 70%;
 }
+.img1,
+.img2,
+.img3,
+.img4 {
+  display: grid;
+  grid-template-rows: [R1] 5% [R2] 90% [R3] 5% [R4];
+  grid-template-columns: [C1] 20% [C2] 60% [C3] 20% [C4];
+  grid-template-areas:
+    ". . ."
+    "im im im"
+    ". . .";
+}
+} */
 
 
 
@@ -78,7 +102,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .container__media {
     display: grid;
     width: 100%;
@@ -105,7 +129,7 @@
 /* -------------------------------------------- HISTORIA ---------------------------------------------------- */
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .art {
     display: flex;
     width: 100%;
