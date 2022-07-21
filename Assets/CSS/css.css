@@ -80,6 +80,11 @@
 } */
 
 
+.navbar{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
 
 .navbar-brand{
   display: none;
@@ -140,8 +145,10 @@
 
 
 .navbar-toggler-icon{
-  color: red;
-  background-color: red;
+  border: solid;
+  border-color: red;
+  border-radius: 20%;
+  background-color: yellow;
 }
 
 nav {
