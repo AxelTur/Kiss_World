@@ -52,49 +52,6 @@
 
 
 
-/* @media (max-width: 768px) {
-  .container__integrantes {
-    display: grid;
-    height: 150vh;
-    grid-template-rows: [R1] 5% [R2] 20% [R3] 5% [R4] 20% [R5] 5% [R6] 20% [R7] 5% [R8] 20% [R9];
-    grid-template-columns: [C1] 100% [C2];
-    grid-template-areas:
-      "int1"
-      "img1"
-      "int2"
-      "img2"
-      "int3"
-      "img3"
-      "int4"
-      "img4";
-    margin: 10vw 5vw 10vw 5vw;
-  }
-  .ints {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3.5vw;
-  }
-
-.imgs{
-  width: 100%;
-  height: 70%;
-}
-.img1,
-.img2,
-.img3,
-.img4 {
-  display: grid;
-  grid-template-rows: [R1] 5% [R2] 90% [R3] 5% [R4];
-  grid-template-columns: [C1] 20% [C2] 60% [C3] 20% [C4];
-  grid-template-areas:
-    ". . ."
-    "im im im"
-    ". . .";
-}
-} */
-
-
 
 
 /* -------------------------------------------- MEDIA ---------------------------------------------------- */
