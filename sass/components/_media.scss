@@ -1,0 +1,52 @@
+/* ----------- MEDIA ------------- */
+  
+.container__media {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: [R1] 33.3% [R2] 33.3% [R3] 33.3% [R4];
+    grid-template-columns: [C1] 20% [C2] 80% [C3];
+    grid-template-areas:
+      ". vid1"
+      "spo vid2"
+      ". vid3";
+    margin: 10% 0% 10% 0%;
+    color: red;
+  }
+  
+  .spo {
+    grid-area: spo;
+    justify-self: center;
+    width: 100%;
+  }
+  
+  .spos {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .vids {
+    width: 35%;
+    height: 80%;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .vid1 {
+    grid-area: vid1;
+  }
+  
+  .vid2 {
+    grid-area: vid2;
+  }
+  
+  .vid3 {
+    grid-area: vid3;
+  }
+  
+  .media__p {
+    text-align: center;
+  }
+  

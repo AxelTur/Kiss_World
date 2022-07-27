@@ -1,0 +1,101 @@
+/* ----------- INDEX HEADER ------------- */
+
+.responsive {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .title {
+    display: none;
+  }
+  
+  .body {
+    background-color: black;
+  }
+  
+  .logotipo {
+    background-image: url("../Images/Kisslogo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 100%;
+    height: 30rem;
+  }
+  
+  
+  
+  
+  .navbar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+  }
+  
+  .navbar-brand{
+    display: none;
+  }
+  
+  .navbar-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 0rem;
+    padding: 0rem;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 3vh;
+  }
+  
+  .navbar-nav li a{
+    padding: 0.1rem;
+    border: solid;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-variant: small-caps;
+    font-style: normal;
+    font-family: "Arial";
+    text-transform: uppercase capitalize;
+    background-color: yellow;
+    border-color: red;
+    border-width: 0.2rem;
+    color: black;
+    border-radius: 10%;
+  }
+  
+  
+  .navbar-nav li a:hover{
+    padding: 0.2rem;
+    border: solid;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-variant: small-caps;
+    font-style: normal;
+    font-family: "Arial";
+    text-transform: uppercase capitalize;
+    transition: all 300ms;
+    background-image: linear-gradient(to right, red,red, yellow);
+    background-color: red;
+    border-color: yellow;
+    border-width: 0.2rem;
+    color: white;
+  }
+  
+  
+  .navbar-toggler-icon{
+    border: solid;
+    border-color: red;
+    border-radius: 20%;
+    background-color: yellow;
+  }
+  
+  nav {
+    background-color: black;
+  }
