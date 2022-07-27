@@ -1,55 +1,131 @@
-/* -------------------------------------------- RESPONSIVE  INDEX MAIN ---------------------------------------------------- */
+/* -------------------------------------------- RESPONSIVE  HEADER ---------------------------------------------------- */
 
+@media (max-width: 992px) {
 
-
-
-@media (max-width: 900px) {
-    .maingif {
-      width: 70%;
-    }
-  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
   
-  @media (max-width: 900px) {
-    .navbar-nav li {
+    & .navbar-brand {
+      display: none;
+    }
+  
+    & .navbar-nav {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
       font-family: Arial, Helvetica, sans-serif;
       font-size: large;
       margin: 0rem;
       padding: 0rem;
       text-align: center;
       list-style-type: none;
-      box-sizing: border-box;
+      margin-bottom: 3vh;
     }
-  }
+
+    & .navbar-nav li {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 0rem;
+      padding: 0rem;
+    }
   
-  
-  @media (max-width: 900px) {
-    
-    .navbar-nav li a {
+    & .navbar-nav li a {
       border: solid;
+      width: 80%;
       font-size: 1.2rem;
       font-weight: 200;
-      text-decoration: none;
-      letter-spacing: 0.05rem;
+      letter-spacing: 0.2rem;
       font-variant: small-caps;
       font-style: normal;
       font-family: "Arial";
-      background-color: yellow;
+      background-color: red;
+      border-color: yellow;
+      border-width: 0.2rem;
+      color: black;
+      border-radius: 10%;
+      align-self: center;
+    }
+  
+    & .navbar-nav li a:hover {
+      padding: 0.2rem;
+      border: solid;
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-decoration: none;
+      letter-spacing: 0.1rem;
+      font-variant: small-caps;
+      font-style: normal;
+      font-family: "Arial";
+      text-transform: uppercase capitalize;
+      transition: all 200ms;
+      background-image: linear-gradient(to right, yellow, yellow, red,);
       border-color: red;
       border-width: 0.2rem;
       color: black;
-      width: 50%;
-      align-self: center;
+    }
+  
+    & .navbar-toggler-icon {
+      border: solid;
+      border-color: yellow;
+      border-radius: 20%;
+      background-color: yellow;
+    }
+    & .navbar-toggler-icon:hover {
+      border: solid;
+      border-color: red;
+      border-radius: 20%;
+      background-color: red;
+    }
+  
+  }
+}
+
+/* -------------------------------------------- RESPONSIVE  INDEX MAIN ---------------------------------------------------- */
+
+
+
+
+@media (max-width: 992px) {
+    .maingif {
+      width: 70%;
     }
   }
-  
   
   
   /* -------------------------------------------- RESPONSIVE  INTEGRANTES ---------------------------------------------------- */
   
-  
+  @media(max-width: 992px){
+    .carousel-item img{
+      box-sizing: border-box;
+      max-width: 80vw;
+      height: auto;
+      max-height: 40vh;
+      object-fit: contain;
+      object-position: center center;
+      transition-duration: 300ms;
+     }
+
+     .carousel-caption h5{
+      color: yellow;
+      font-size: 1em;
+      font-weight: bolder;
+     }
+    
+     .carousel-caption p{
+      color: red;
+      font-size: 1em;
+      font-weight: bolder;
+     }
+
+     .carousel-item:hover{
+      font-size: 1em;
+     }
+  }
   
   
   
@@ -59,7 +135,7 @@
   
   
   
-  @media (max-width: 900px) {
+  @media (max-width: 992px) {
     .container__media {
       display: grid;
       width: 100%;
@@ -86,7 +162,7 @@
   /* -------------------------------------------- RESPONSIVE HISTORIA ---------------------------------------------------- */
   
   
-  @media (max-width: 900px) {
+  @media (max-width: 992px) {
     .art {
       display: flex;
       width: 100%;

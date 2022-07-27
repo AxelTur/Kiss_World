@@ -14,8 +14,11 @@
    }
   
    .carousel-item img{
-    box-sizing: border-box;
-    height: 85vh;
-    object-fit: cover;
+    width: auto;
+    height: auto;
     object-position: center center;
    }
+
+.carousel-item{
+    object-fit: contain;
+}
