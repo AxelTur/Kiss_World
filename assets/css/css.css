@@ -120,15 +120,23 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%; }
+  width: 20%;
+  padding-bottom: 5%; }
 
-.maintext {
+.maintext, .maintext--principal {
   vertical-align: middle;
-  text-align: center; }
+  text-align: center;
+  font-size: medium;
+  font-weight: bold; }
 
 .mainh2 {
   vertical-align: middle;
   text-align: center; }
+
+.maintext--principal {
+  background-color: yellow;
+  border: solid;
+  border-color: red; }
 
 /* ----------- INTEGRANTES ------------- */
 .carousel-caption h5 {
