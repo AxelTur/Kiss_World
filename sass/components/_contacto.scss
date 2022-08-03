@@ -1,5 +1,5 @@
  /* ----------- CONTACTO ------------- */
   
   .body__contacto {
-    color: $color-texto-rojo;
+    color: map-get($map: $colors, $key: 'color-texto-rojo');
   }

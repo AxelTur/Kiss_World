@@ -10,7 +10,7 @@
 }
 
 .body {
-  background-color: $color-fondo-negro;
+  background-color: map-get($map: $colors, $key: 'color-fondo-negro');
 }
 
 .logotipo {
@@ -55,10 +55,10 @@
     font-variant: small-caps;
     font-style: normal;
     text-transform: uppercase capitalize;
-    background-color: $color-fondo-amarillo;
-    border-color: $color-borde-rojo;
+    background-color: map-get($map: $colors, $key: 'color-fondo-amarillo');
+    border-color: map-get($map: $colors, $key: 'color-borde-rojo');
     border-width: 0.2rem;
-    color: $color-fondo-negro;
+    color: map-get($map: $colors, $key: 'color-fondo-negro');
     border-radius: 10%;
   }
 
@@ -75,19 +75,19 @@
     text-transform: uppercase capitalize;
     transition: all 300ms;
     background-image: linear-gradient(to right, red, red, yellow);
-    border-color: $color-borde-amarillo;
+    border-color: map-get($map: $colors, $key: 'color-borde-amarillo');
     border-width: 0.2rem;
-    color: $color-texto-blanco;
+    color: map-get($map: $colors, $key: 'color-texto-blanco');
   }
 
   & .navbar-toggler-icon {
     border: solid;
-    border-color: $color-borde-rojo;
+    border-color: map-get($map: $colors, $key: 'color-borde-rojo');
     border-radius: 20%;
-    background-color: $color-fondo-amarillo;
+    background-color: map-get($map: $colors, $key: 'color-borde-amarillo');
   }
 
    .nav {
-    background-color: $color-fondo-negro;
+    background-color: map-get($map: $colors, $key: 'color-fondo-negro');
   }
 }

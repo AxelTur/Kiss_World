@@ -1,31 +1,30 @@
 /* ----------- INDEX MAIN ------------- */
-  
+
 .body__main {
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .artmain {
-    padding: 1vw;
-    margin: 1vw;
-    color: $color-texto-rojo;
-  }
-  
-  .maingif {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-  }
-  
-  .maintext {
-    vertical-align: middle;
-    text-align: center;
-  }
-  
-  .mainh2 {
-    vertical-align: middle;
-    text-align: center;
-  }
-  
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.artmain {
+  padding: 1vw;
+  margin: 1vw;
+  color: map-get($map: $colors, $key: "color-texto-rojo");
+}
+
+.maingif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.maintext {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.mainh2 {
+  vertical-align: middle;
+  text-align: center;
+}

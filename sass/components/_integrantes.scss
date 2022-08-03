@@ -2,13 +2,13 @@
   
   
 .carousel-caption h5{
-    color: yellow;
+    color: map-get($map: $colors, $key: 'color-texto-amarillo');
     font-size: 2em;
     font-weight: bolder;
    }
   
    .carousel-caption p{
-    color: $color-texto-rojo;
+    color: map-get($map: $colors, $key: 'color-texto-rojo');
     font-size: 2em;
     font-weight: bolder;
    }

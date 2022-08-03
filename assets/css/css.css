@@ -1,3 +1,25 @@
+/* -------------------------------------------- FUNCTIONS ---------------------------------------------------- */
+.art-color-texto-rojo {
+  color: red; }
+
+.art-color-texto-blanco {
+  color: white; }
+
+.art-color-texto-amarillo {
+  color: yellow; }
+
+.art-color-fondo-negro {
+  color: black; }
+
+.art-color-fondo-amarillo {
+  color: yellow; }
+
+.art-color-borde-rojo {
+  color: red; }
+
+.art-color-borde-amarillo {
+  color: yellow; }
+
 /* -------------------------------------------- RESET ---------------------------------------------------- */
 *::before,
 *::after,
