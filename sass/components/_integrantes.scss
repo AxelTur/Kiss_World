@@ -1,24 +1,20 @@
 /* ----------- INTEGRANTES ------------- */
-  
-  
-.carousel-caption h5{
-    color: map-get($map: $colors, $key: 'color-texto-amarillo');
-    font-size: 2em;
-    font-weight: bolder;
-   }
-  
-   .carousel-caption p{
-    color: map-get($map: $colors, $key: 'color-texto-rojo');
-    font-size: 2em;
-    font-weight: bolder;
-   }
-  
-   .carousel-item img{
+
+
+.carousel-caption h5 {
+    @include integrantes-text(yellow);
+}
+
+.carousel-caption p {
+    @include integrantes-text(red);
+}
+
+.carousel-item img {
     width: auto;
     height: auto;
     object-position: center center;
-   }
+}
 
-.carousel-item{
+.carousel-item {
     object-fit: contain;
 }

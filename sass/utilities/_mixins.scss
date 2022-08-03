@@ -1,5 +1,7 @@
 
 
-@mixin formato{
-
+@mixin integrantes-text ($int-text-color){
+    color: $int-text-color;
+    font-size: 2em;
+    font-weight: bolder;
 }
