@@ -18,7 +18,7 @@
   background-color: black; }
 
 .logotipo {
-  background-image: url("../Images/Kisslogo2.jpg");
+  background-image: url("../../assets/images/kisslogo2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40%;
@@ -136,7 +136,7 @@
   flex-wrap: wrap;
   line-height: 1.4rem;
   margin: 2rem auto 2rem auto;
-  background-image: url("../Images/Backgroundtext.jpg");
+  background-image: url("../../assets/images/backgroundtext.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   box-sizing: border-box; }

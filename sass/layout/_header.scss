@@ -10,7 +10,7 @@
 }
 
 .body {
-  background-color: black;
+  background-color: $color-fondo-negro;
 }
 
 .logotipo {
@@ -48,17 +48,17 @@
   & .navbar-nav li a {
     padding: 0.1rem;
     border: solid;
-    font-size: 1.5rem;
+    font-size: $fuente-navbar;
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 0.1rem;
     font-variant: small-caps;
     font-style: normal;
     text-transform: uppercase capitalize;
-    background-color: yellow;
-    border-color: red;
+    background-color: $color-fondo-amarillo;
+    border-color: $color-borde-rojo;
     border-width: 0.2rem;
-    color: black;
+    color: $color-fondo-negro;
     border-radius: 10%;
   }
 
@@ -75,19 +75,19 @@
     text-transform: uppercase capitalize;
     transition: all 300ms;
     background-image: linear-gradient(to right, red, red, yellow);
-    border-color: yellow;
+    border-color: $color-borde-amarillo;
     border-width: 0.2rem;
-    color: white;
+    color: $color-texto-blanco;
   }
 
   & .navbar-toggler-icon {
     border: solid;
-    border-color: red;
+    border-color: $color-borde-rojo;
     border-radius: 20%;
-    background-color: yellow;
+    background-color: $color-fondo-amarillo;
   }
 
    .nav {
-    background-color: black;
+    background-color: $color-fondo-negro;
   }
 }
