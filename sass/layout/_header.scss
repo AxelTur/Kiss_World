@@ -59,7 +59,7 @@
     border-color: map-get($map: $colors, $key: 'color-borde-rojo');
     border-width: 0.2rem;
     color: map-get($map: $colors, $key: 'color-fondo-negro');
-    border-radius: 10%;
+    border-radius: 10px;
   }
 
   & .navbar-nav li a:hover {

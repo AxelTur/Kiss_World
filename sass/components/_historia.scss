@@ -1,34 +1,40 @@
  /* ----------- HISTORIA ------------- */
   
  .art {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    line-height: 1.4rem;
+  display: grid;
+  grid-template-rows: [R1] 100% [R2];
+  grid-template-columns: [C1] 20% [C2] 60% [C3] 20% [C4];
+  grid-template-areas:
+    ". hist .";
     margin: 2rem auto 2rem auto;
-    background-image: url("../../assets/images/backgroundtext.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    box-sizing: border-box;
+    line-height: 1.8rem;
   }
   
   .art__title {
-    width: 100%;
     font-family: "Arial";
-    font-size: 3rem;
-    color: map-get($map: $colors, $key: 'color-texto-rojo');
+    font-size: 2rem;
+    color: map-get($map: $colors, $key: 'color-texto-amarillo');
     margin-bottom: 5rem;
     text-align: center;
   }
   
   .art__text {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
     padding: auto;
     font-family: "Arial";
     font-weight: 600;
     font-size: medium;
     width: 100%;
     text-align: justify;
+    color: map-get($map: $colors, $key: 'color-texto-rojo')
+  }
+
+  .historia__section{
+    grid-area: hist;
+  }
+
+  .historia__img{
+    margin-bottom: 4vh;
   }
   
