@@ -14,6 +14,9 @@
 .art-color-fondo-amarillo {
   color: yellow; }
 
+.art-color-fondo-blanco {
+  color: white; }
+
 .art-color-borde-rojo {
   color: red; }
 
@@ -114,7 +117,12 @@
 .artmain {
   padding: 1vw;
   margin: 1vw;
-  color: red; }
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border: solid;
+  border-color: red;
+  box-sizing: border-box;
+  border-radius: 10px; }
 
 .maingif {
   display: block;
@@ -127,15 +135,19 @@
   vertical-align: middle;
   text-align: center;
   font-size: medium;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: 5vw;
+  margin-right: 5vw; }
 
 .mainh2 {
   vertical-align: middle;
-  text-align: center; }
+  text-align: center;
+  color: red; }
 
 .maintext--principal {
   background-color: yellow;
   border: solid;
+  border-radius: 10px;
   border-color: red; }
 
 /* ----------- INTEGRANTES ------------- */
@@ -193,7 +205,7 @@
   width: 100%;
   height: 100vh;
   grid-template-rows: [R1] 33.3% [R2] 33.3% [R3] 33.3% [R4];
-  grid-template-columns: [C1] 20% [C2] 80% [C3];
+  grid-template-columns: [C1] 30% [C2] 70% [C3];
   grid-template-areas: ". vid1" "spo vid2" ". vid3";
   margin: 10% 0% 10% 0%;
   color: red; }
@@ -210,8 +222,8 @@
   padding: 0px 0px 0px 0px; }
 
 .vids {
-  width: 35%;
-  height: 80%;
+  width: 40%;
+  height: 70%;
   align-self: center;
   justify-self: center; }
 
@@ -367,13 +379,18 @@
     display: grid;
     width: 100%;
     height: 80vh;
-    grid-template-rows: [R1] 25% [R2] 25% [R3] 25% [R4] 25% [R4];
+    grid-template-rows: [R1] 25% [R2] 35% [R3] 35% [R4] 35% [R4];
     grid-template-columns: [C1] 100% [C2];
     grid-template-areas: "spo" "vid1" "vid2" 'vid3'; }
   .vids {
     align-self: center;
     justify-self: center;
-    width: 70%; } }
+    width: 70%; }
+  .spo {
+    grid-area: spo;
+    margin-left: auto;
+    justify-self: center;
+    width: 100%; } }
 
 /* -------------------------------------------- RESPONSIVE HISTORIA ---------------------------------------------------- */
 @media (max-width: 992px) {

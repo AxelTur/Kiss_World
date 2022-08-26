@@ -9,7 +9,13 @@
 .artmain {
   padding: 1vw;
   margin: 1vw;
-  color: map-get($map: $colors, $key: "color-texto-rojo");
+  margin-left: 10vw;
+  margin-right: 10vw;
+  color: map-get($map: $colors, $key: "color-texto-negro");
+  border: solid;
+  border-color: map-get($map: $colors, $key: 'color-borde-rojo' );
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .maingif {
@@ -25,16 +31,21 @@
   text-align: center;
   font-size: medium;
   font-weight: bold;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .mainh2 {
   vertical-align: middle;
   text-align: center;
+  color: map-get($map: $colors, $key: "color-texto-rojo");
+  
 }
 
 .maintext--principal{
   @extend .maintext;
   background-color: map-get($map: $colors, $key: 'color-fondo-amarillo' );
   border: solid;
+  border-radius: 10px;
   border-color: map-get($map: $colors, $key: 'color-borde-rojo' );
 }
