@@ -142,7 +142,8 @@
 .mainh2 {
   vertical-align: middle;
   text-align: center;
-  color: red; }
+  color: red;
+  margin-bottom: 2vh; }
 
 .maintext--principal {
   background-color: yellow;
